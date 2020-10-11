@@ -1,0 +1,38 @@
+DOCTYPE html>
+<html lang="fr">
+    #onglets
+
+  <head>
+        <title>   Page 2  </title>
+        <meta charset="UTF_8">
+        <meta name="description " content="le content ................">
+        <meta name="keyworlds" content="">
+        <link href="">
+  </head>
+  <body>
+      <ul>
+          <li> <a href="#home ">Home</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#">Dropdown </a>
+            <ul>
+                <li><a href="#Dropdown1">@fat</a></li>
+                <li><a href="#Dropdown2">@mod</a></li>
+            </ul>
+        </li>
+      </ul>
+      <div id="menu">
+        <ul id="onglets">
+          <li class="active"><a href="Accueil.html"> Accueil </a></li>
+          <li><a href="Forums.html"> Forums </a></li>
+          <li><a href="Livre_or.html"> Livre d'or </a></li>
+          <li><a href="Equipe.html"> L'équipe </a></li>
+          <li><a href="Inscription.html"> S'inscrire </a></li>
+          <li><a href="Connexion.html"> Se connecter </a></li>
+        </ul>
+      </div>
+  </body>
+  <p> lien vers<a href="../index.html" title="Page d'accueil"> ma page d'accuiel </a>  </p>
+
+  <p> lien vers<a href="../page 1.html" title="Page 1"> Ma page 1 </a> </p>
+
+</html>
