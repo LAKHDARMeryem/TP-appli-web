@@ -1,0 +1,47 @@
+
+  
+
+label
+{
+   width:100px;
+   display:inline-block;
+   
+
+}
+
+
+form{
+
+   display: block;
+   margin-top:0em;
+  
+
+}
+
+
+
+input[type=button] 
+{ 
+    color:#fff; background-color:green;
+    
+ }
+
+ #error{
+
+   border : 1px outset #c22525;
+   background-color : rosybrown;
+   padding : 5px  ;
+   display : none;
+}
+
+ #resultat{
+
+    color : snow;
+    background-color : seagreen;
+    padding : 5px;
+    display : none;
+ }
+  
+ .display{
+    display: block!important;
+ }
