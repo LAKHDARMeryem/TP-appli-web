@@ -34,7 +34,7 @@ function validation ( )
 	
 	
     else if (document.getElementById("mail").value.length < 5 && document.getElementById("mail").value.length > 0 ) { 
-        document.getElementById("error").innerHTML = "Le mail doit contenir au moins 5 caractères !";
+        document.getElementById("error").innerHTML = "Veuillez renseigner tous les champs  !";
          document.getElementById("error").removeAttribute("hidden");
     }
 	else if (document.getElementById("mail").value.length == 0 ) { 
