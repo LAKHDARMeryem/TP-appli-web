@@ -1,20 +1,26 @@
-
-  
+body{
+   background-color: #babdbd;              
+   font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+   font-size: 16px;
+   margin: 0 auto;
+   max-width: 800px;              
+ }
+ 
 
 label
 {
-   width:100px;
-   display:inline-block;
-   
+  width:100px;
+  display:inline-block;
+  
 
 }
 
 
 form{
 
-   display: block;
-   margin-top:0em;
-  
+  display: block;
+  margin-top:0em;
+ 
 
 }
 
@@ -22,26 +28,36 @@ form{
 
 input[type=button] 
 { 
-    color:#fff; background-color:green;
-    
- }
-
- #error{
-
-   border : 1px outset #c22525;
-   background-color : rosybrown;
-   padding : 5px  ;
-   display : none;
+   color:#fff; background-color:green;
+   
 }
 
- #resultat{
+#error{
 
-    color : snow;
-    background-color : seagreen;
-    padding : 5px;
-    display : none;
- }
-  
- .display{
-    display: block!important;
- }
+  border : 1px outset #b92323;
+  background-color : rosybrown;
+  padding : 5px  ;
+  display : none;
+ 
+}
+#grove
+{
+border-style: groove;
+background-color : rgb(255, 255, 255);
+
+padding : 5px  ;
+
+
+}
+
+#resultat{
+
+   color : rgb(255, 250, 250);
+   background-color : rgb(35, 143, 82);
+   padding : 5px;
+   display : none;
+}
+ 
+.display{
+   display: block!important;
+}

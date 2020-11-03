@@ -3,43 +3,42 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>TP2 </title>
+        <title>TP2</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         
+        <script type="text/javascript" src="index.js"></script> `
+        <link rel="stylesheet" type="text/css" href="index.css">
 
-        <!--<script src="js/main.js"></script>-->
-        <script type="text/javascript" src=index.js"></script> `
     </head>
-
     <body>        
 
         <h1>Saisie d'une fiche "Personne" </h1> 
        
         <form id="index" >
 
-            <label for="fname">Nom:
-            <input type="text" id="fname" name="fname" ></label><br/>
-            <label for="lname">Prénom:
-            <input type="text" id="lname" name="lname"></label><br/>
-            <label for="date" > Date de naissance: 
-            <input type="date" id="date" name="date" placeholder="jj/mm/aaaa" /></label><br/>
-            <label for="adresse">Adresse: 
-            <input type="text" id="adresse" name="adresse" ></label><br/>
-            <label for="mail">Mail: 
-            <input type="text" id="mail" name="mail" /></label><br/>
+            <div id="grove">
+            <label for="fname">Nom: </label>
+            <input type="text" id="fname" name="fname" ><br/>
+            <label for="lname">Prénom:</label>
+            <input type="text" id="lname" name="lname"><br/>
+            <label for="date" > Date de naissance: </label>
+            <input type="date" id="date" name="date" placeholder="jj/mm/aaaa" /><br/>
+            <label for="adresse">Adresse: </label>
+            <input type="text" id="adresse" name="adresse" ><br/>
+            <label for="mail">Mail: </label>
+            <input type="text" id="mail" name="mail" /><br/>
             
-            <!--FAIRE APPEL A LA FONCTION VALIDATION LORSQUE ON CLIC SUR VALIDER-->
-            <input type="button" onclick="validation()" value="Valider">  <br/><br/>
+            
+            <input type="button" onclick="validation()" value="Valider">  <br/>
             
         </form>
+    </div>
 
-
-        <!--**messages d’erreur**-->
+        
         <div id="error"></div>   
 
-        <!--**message de validation**-->
+      
         <div id="resultat" ></div> `
 
         
