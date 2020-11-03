@@ -1,21 +1,28 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>TP2</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         
-        <script type="text/javascript" src="index.js"></script> `
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="x-ua-compatible" content="ie=edge">
+            <title>TP2</title>
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+            <script type="text/javascript" src="formulaire.js"></script> `
+            <link rel="stylesheet" type="text/css" href="index.css">
+    
+        </head>
 
-    </head>
-    <body>        
-
-        <h1>Saisie d'une fiche "Personne" </h1> 
+    
        
-        <form id="index" >
+
+    <body>  
+             
+        <h1>Saisie d'une fiche "Personne"</h1>
+        
+        
+        <form id="formulaire" method=post   onsubmit="validation()">
 
             <div id="grove">
             <label for="fname">Nom: </label>
@@ -28,22 +35,15 @@
             <input type="text" id="adresse" name="adresse" ><br/>
             <label for="mail">Mail: </label>
             <input type="text" id="mail" name="mail" /><br/>
-            
-            
-            <input type="button" onclick="validation()" value="Valider">  <br/>
-            
-        </form>
-    </div>
-
-        
-        <div id="error"></div>   
-
-      
-        <div id="resultat" ></div> `
-
-        
-
-
-
+       
+        <input type="button" id="boutton" value="Valider"  onclick="validation()">
+    
+   
+    </form>
+</div>
+   
+    <div id="error" hidden>  </div>
+    <div id="resultat" hidden>  </div>
     </body>
+   
 </html>
