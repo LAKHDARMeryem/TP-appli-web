@@ -6,8 +6,6 @@ body{
    max-width: 800px;                   
 }
 
-
-
 #error{
    background-color: pink;
    color: black ;
@@ -27,32 +25,19 @@ body{
    border-color:black;
 }
 #boutton{
-   color:#fff; background-color:green;
+   color:white; background-color:green;
 }
-
- 
-
-
-
 #grove
 {
 border-style: groove;
 background-color : white;
-
 padding : 5px  ;
-
-
 }
-
-
- 
 
 label
 {
   width:100px;
   display:inline-block;
-  
-
 }
 
 
