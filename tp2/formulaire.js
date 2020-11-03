@@ -44,6 +44,6 @@ function validation ( )
 	
      else {
         document.getElementById("resultat").removeAttribute("hidden");
-        document.getElementById("resultat").innerHTML = "Bienvenue Mr / Mm" + document.querySelector("#lname").value
+        document.getElementById("resultat").innerHTML = "Bienvenue Mr / Mm   " + document.querySelector("#lname").value
      }
  }
