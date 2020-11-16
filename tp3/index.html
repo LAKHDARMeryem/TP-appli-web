@@ -8,26 +8,84 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+        <!-- jquery pour pouvoir utiliser les composants JS de boostap (modal, tooltip...) -->
+        <script src="js/jquery-3.2.1.slim.min.js"></script>
 
-        <style>
-          body{
-              background-color: #e9ebee;              
-              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-              font-size: 16px;
-              margin: 0 auto;
-              max-width: 800px;              
-          }
-        </style>
-        
+        <!-- CSS boostrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <script src="js/popper.min.js"></script>
+
+        <!-- composants JS de boostrap (modal http://getbootstrap.com/docs/4.0/components/modal/ , collapse...) -->
+        <script src="js/bootstrap.min.js"></script> 
+
+      
         <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
-        <!--<link rel="stylesheet" href="style.css">-->
-        <!--<script src="main.js"></script>-->
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
     </head>
     <body>        
         <h1>tp3</h1>
         <!-- Add your site or application content here -->
         <p>Hello world! This is HTML5 Boilerplate.</p>
         <img src="../galilee.png" alt="Logo Galilee"/>
+        <div class="container-fluid">
+            
+            
+            <div class="container">
+            <form style="margin-top: 50px">
+                
+            <div >
+                <label for="nom">Nom:</label>
+                <input id="nom" type="text" class="form-control " placeholder="Nom">
+            </div>
+            <div >
+                <label for="prenom">Prénom:</label>
+                <input id="prenom" type="text" class="form-control" placeholder="Prénom">
+            </div>
+            <div >
+                <label for="datepicker">Date de Naissance:</label>
+                <input id="datepicker" type="text" class="form-control" placeholder="jj-mm-aaaa">
+            </div>
+            <div >
+                <label for="adress">Adresse:</label>
+                <input id="adress" type="text" class="form-control" placeholder="Adresse">
+            </div>
+            <div >
+                <label for="mail">Mail:</label>
+                <input id="mail" type="email" class="form-control" placeholder="Mail">
+            </div>
+                <br>
+            <button id="valider" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Valider</button>
+           
+                <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    
+                    <div class="modal-body">
+                        <p>Veuillez introduire les champs svp</p>
+                    </div>
+                    
+                    <div class="modal-footer">
+                        
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+               
+            </form>
+            
+
+         </div>   
+        </div>
     </body>
 </html>
